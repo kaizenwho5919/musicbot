@@ -284,5 +284,5 @@ client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
 
-client.login(config.botToken);
+client.login(process.env.TOKEN);
 
